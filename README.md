@@ -1,4 +1,7 @@
-# egg-mongoose
+# fork说明
+mongoose 更新到 5.1.4
+
+# egg-mongoose-hb
 [![NPM version][npm-image]][npm-url]
 [![build status][travis-image]][travis-url]
 [![Test coverage][codecov-image]][codecov-url]
@@ -24,17 +27,17 @@ Egg's mongoose plugin.
 ## Install
 
 ```bash
-$ npm i egg-mongoose --save
+$ npm i egg-mongoose-hb --save
 ```
 
 ## Configuration
 
-Change `{app_root}/config/plugin.js` to enable `egg-mongoose` plugin:
+Change `{app_root}/config/plugin.js` to enable `egg-mongoose-hb` plugin:
 
 ```js
 exports.mongoose = {
   enable: true,
-  package: 'egg-mongoose',
+  package: 'egg-mongoose-hb',
 };
 ```
 

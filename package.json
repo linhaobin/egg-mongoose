@@ -1,6 +1,6 @@
 {
-  "name": "egg-mongoose",
-  "version": "2.2.1",
+  "name": "egg-mongoose-hb",
+  "version": "2.2.1-hb.1",
   "description": "egg mongoose plugin",
   "eggPlugin": {
     "name": "mongoose"
@@ -14,7 +14,7 @@
   ],
   "dependencies": {
     "await-first": "^1.0.0",
-    "mongoose": "^5.0.17"
+    "mongoose": "^5.1.4"
   },
   "devDependencies": {
     "autod": "^2.7.1",
